@@ -1,0 +1,124 @@
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #697f99;
+}
+
+
+
+
+
+
+/* title section */
+#title {
+    background-color: #192a56;
+    border-radius: 40px;
+    box-shadow:5px 5px rgb(13, 104, 179);
+    margin-bottom: 6px;
+}
+
+.brandfont{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.notidivchange {
+    text-align: centre;
+}
+
+.lichange {
+    margin-top: 1.2%;
+    margin-left: 20px;
+}
+
+.lichange:hover{
+    background-color: rgb(13, 104, 179);
+}
+
+
+.iconsize {
+    font-size: 1.5rem;
+}
+
+
+
+
+/* search box  for create post */
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+
+
+}
+
+.formcontrol {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 200px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.search input:focus {
+
+    box-shadow: none;
+    border: 2px solid blue;
+
+
+}
+
+
+
+
+.search .labelicon {
+
+    position: absolute;
+    top: 15px;
+    left: 5px;
+
+}
+
+.search button {
+
+    position: absolute;
+    background-color: #57606f;
+    border-radius: 200px;
+    top: 0px;
+    right: 5px;
+    height: 40px;
+    width: 110px;
+
+}
+.search button:hover{
+    background-color: #a4b0be;
+}
+/* serach box over */
+
+
+
+.forcentre{
+    text-align: center;
+}
