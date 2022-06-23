@@ -38,22 +38,24 @@
 
 
     <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/cbc5c7cae5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4cacfa305a.js" crossorigin="anonymous"></script>
 
     <!-- friconix -->
     <script defer src="https://friconix.com/cdn/friconix.js"> </script>
 
 </head>
 
-<body>
-
-
+<body onload="myFunction()">
+    <div id="loading">
+        <p style="font-size: xx-large; text-align:center; color:white; ">Wait we are hacking NASA's WiFi for ya</p>
+    </div>
 
     <section id="title">
         <!-- title section contain nav bar and logo -->
-        <div class="container-fluid">
-            <!-- navigation bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
                 <a class="brandfont navbar-brand" href="#">
                     Chat-Hub
                     <i class="fa-solid fa-comments fa-2x"></i>
@@ -92,20 +94,20 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
-        </div>
 
     </section>
 
-    <section>
+    <section class="mb-3">
         <!-- the creat post line -->
         <div class="container">
-            <div class="row height d-flex justify-content-center align-items-center">
+            <div class="row height d-flex justify-content-center">
 
-                <div class="col-md-8 ">
+                <div class="col-lg-12 col-md-8 ">
                     <div class="search" style="border-radius: 200px;">
-                        <input class="formcontrol mr-sm-6" type="search" placeholder="Write Your Thoughts.."
+                        <input class="formcontrol mr-sm-6" type="search" placeholder="Spark a Controversy.."
                             aria-label="Search">
                         <button class=" btn btn-outline-light my-2 my-sm-6" type="submit">
                             <i class="fi-cwsuxl-plus-solid"></i> Create</button>
@@ -120,78 +122,295 @@
     </section>
     <div class="row m-auto">
 
-        <section class="forcentre col-lg-4">
+        <section class="col-lg-3 col-md-12">
             <!-- left section -->
-            <div>
-                <p>akash</p>
-            </div>
-            <div>
-                <p>aditya</p>
-            </div>
-            <div>
-                <p>yashraj</p>
-            </div>
-            <div>
-                <p>pankaj</p>
-            </div>
-            <div>
-                <p>singh</p>
-            </div>
-            <div>
-                <p>dhyey</p>
+            <div class="forborder card">
+                <div class="card-header pb-0">
+                    <p>People You can be friend with</p>
+                </div>
+                <div class="forborder  card">
+
+                    <div class="card-body p-2">
+                        <div class="d-flex ">
+                            <img src="style sheets/images/dhyey.jpeg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Dhyey Sawaliya</em></strong></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/yashraj.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Yashraj Kulshreshta</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/aditya.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Aditya Sharma</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/hinata.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Hyuga Hinata</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/Akash.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Akash Yadav</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/nami.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Nami</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/nezuko.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Nezuko-chan</em></strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="forborder card">
+                    <div class="card-body p-2">
+                        <div class="d-flex">
+                            <img src="style sheets/images/hancock.jpg" alt="dhyey sawalia" class="sugdp">
+                            <p class="sugname m-2"><strong><em>Boa Hancock</em></strong></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="forcentre col-lg-4">
+        <section class="row col-lg-5">
             <!-- section containing posts from users -->
 
-            <div>
-                <p>post 1</p>
+            <div class="col-lg-12 col-md-6   mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
 
-                <div>
-                    <!-- div for like comment n share -->
-                </div>
+                        <img src="https://i.pinimg.com/originals/d5/c3/75/d5c375f501accff26eec090ee83fbad1.jpg"
+                            class="dp">
 
+                        <p class="username"><strong><em>Leah Gotti</em></strong></p>
+                        <p class="userplace"><small><em>Switzerland</em></small></p>
 
-            </div>
-            <div>
-                <p>post 2</p>
-
-                <div>
-                    <!-- div for like comment n share -->
-                </div>
-
-
-            </div>
-            <div>
-                <p>post 3</p>
-
-
-
-                <div>
-                    <!-- div for like comment n share -->
-                </div>
-
-
-
-            </div>
-            <div>
-
-                <p>post 4</p>
-
-
-
-                <div>
-                    <!-- div for like comment n share -->
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://picsum.photos/490/510?random=1" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+            <div class="col-lg-12 col-md-6  col-lg-5 mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://images.thequint.com/thequint/2018-08/e9598f6d-7ef1-4a1b-9956-200b92e55b98/AP18234384246756.jpg?auto=format%2Ccompress"
+                            class="dp">
+
+                        <p class="username"><strong><em>Virat Kohli</em></strong></p>
+                        <p class="userplace"><small><em>Mumbai</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://imgk.timesnownews.com/story/Kohli_RCB_BCCL4_0.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="row">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 col-md-6  mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://i.pinimg.com/736x/4c/f8/f8/4cf8f8c0cc9968971bd78e13a17e0a92.jpg" class="dp">
+
+                        <p class="username"><strong><em>Satoru Gojo</em></strong></p>
+                        <p class="userplace"><small><em>Tokyo</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://images2.alphacoders.com/114/thumb-1920-1140283.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6  mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://www.themoviedb.org/t/p/w235_and_h235_face/ilPBHd3r3ahlipNQtjr4E3G04jJ.jpg"
+                            class="dp">
+
+                        <p class="username"><strong><em>Johny Depp</em></strong></p>
+                        <p class="userplace"><small><em>Bihar</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://picsum.photos/490/510?random=2" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6  mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://wallpaperaccess.com/full/2665651.jpg" class="dp">
+
+                        <p class="username"><strong><em>Monkey D. Luffy</em></strong></p>
+                        <p class="userplace"><small><em>Wano Country</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://wallpapercave.com/dwp1x/wp5955106.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 col-md-6  mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://i.pinimg.com/originals/2a/25/f6/2a25f65e9265dc8a413803a4e2e5adc1.jpg"
+                            class="dp">
+
+                        <p class="username"><strong><em>Keerthi Suresh</em></strong></p>
+                        <p class="userplace"><small><em>Hyderabad</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://wallpaperaccess.com/full/1344365.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6  mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://i.pinimg.com/originals/64/95/d0/6495d05033eb2029300f4a6fe5151952.jpg"
+                            class="dp">
+
+                        <p class="username"><strong><em>Emma Watson</em></strong></p>
+                        <p class="userplace"><small><em>Gurgaon</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost" src="https://picsum.photos/490/510?random=3" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6  mb-4">
+                <div class="forborder card">
+                    <div class="d-flex card-header">
+
+                        <img src="https://gumlet.assettype.com/freepressjournal/2020-02/95258712-e119-4c2e-9d7f-7aee33fa6107/Amit_Shah.jpg"
+                            class="dp">
+
+                        <p class="username"><strong><em>Deadly Duo</em></strong></p>
+                        <p class="userplace"><small><em>Pakistan</em></small></p>
+
+                    </div>
+                    <div class="flex card-body">
+                        <img class="userpost"
+                            src="https://static.langimg.com/thumb/msid-91421998,imgsize-2356735,width-700,height-525,resizemode-75/navbharat-times.jpg" />
+                    </div>
+                    <div class="card-footer">
+                        <!-- div for like comment n share -->
+                        <div class="">
+                            <i class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                            <i class="displaceleft posticons fa-solid fa-share-from-square fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </section>
 
 
 
 
 
-        <section class="forcentre col-lg-4">
+        <section class="col-lg-4">
             <!-- right section -->
             <div>
                 <p>akash</p>
@@ -213,6 +432,16 @@
             </div>
         </section>
     </div>
+
+    <!-- preloader java script -->
+    <script>
+        function myFunction() {
+            var preloader = document.getElementById("loading");
+            preloader.style.display = 'none';
+        }
+    </script>
+
+
 
 </body>
 

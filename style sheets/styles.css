@@ -11,6 +11,17 @@ body{
     background-color: #697f99;
 }
 
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black
+    url('https://i.gifer.com/6ka.gif')
+	 no-repeat center;
+    z-index: 99999;
+    
+}
+
 
 
 
@@ -38,13 +49,17 @@ body{
     margin-left: 20px;
 }
 
-.lichange:hover{
+/* .lichange:hover{
     background-color: rgb(13, 104, 179);
 }
-
+ */
 
 .iconsize {
     font-size: 1.5rem;
+}
+.iconsize:hover{
+    color: #a6acb4;
+    font-size: 170%;
 }
 
 
@@ -115,10 +130,74 @@ body{
 .search button:hover{
     background-color: #a4b0be;
 }
-/* serach box over */
-
-
-
-.forcentre{
-    text-align: center;
+/* search box over */
+.displaceleft:hover{
+    animation-name: displaceleft;
+    animation-duration: 0.5s;  
+    animation-iteration-count: 1;
 }
+
+
+
+/* designing posts */
+
+.forborder{
+    border-radius: 20px;
+    background-color: #a6acb4;
+}
+
+
+/* for header section */
+
+.dp {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.username{
+    margin-left: 2%;
+}
+.userplace{
+    position: relative;
+    top: 17px;
+    left:-80px
+}
+.userpost{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.posticons{
+    margin: auto;
+    width: 30%;
+    padding-left: 12%;
+}
+.posticons:hover{
+    color: #495057;
+}
+@keyframes displaceleft {
+    from{padding-left: 12%;}
+    to { padding-left: 15%;}
+}
+
+
+
+/* left side */
+.sugdp{
+    border-radius: 30%;
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.sugname{
+    color: #4e5a6e;
+}
+/* .displaceab:hover{
+    animation-name: dispabove;
+    animation-duration: 0.5s;
+}
+@keyframes dispabove{
+    from{left: 0%; top: 0%;}
+    to{left: 10%; top: 5%;}
+} */
