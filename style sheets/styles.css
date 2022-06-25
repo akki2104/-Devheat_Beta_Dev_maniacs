@@ -1,41 +1,27 @@
+body {
+    background-color: #040404;
 
-
-
-
-
-
-
-
-
-body{
-    background-color: #697f99;
 }
 
-#loading{
+#loading {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: black
-    url('https://i.gifer.com/6ka.gif')
-	 no-repeat center;
+    background: black url('https://i.gifer.com/6ka.gif') no-repeat center;
     z-index: 99999;
-    
 }
-
-
-
 
 
 
 /* title section */
 #title {
-    background-color: #192a56;
+    background-color: #003c81;
     border-radius: 40px;
-    box-shadow:5px 5px rgb(13, 104, 179);
+    box-shadow: 5px 5px rgb(13, 104, 179);
     margin-bottom: 6px;
 }
 
-.brandfont{
+.brandfont {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
 }
@@ -49,21 +35,14 @@ body{
     margin-left: 20px;
 }
 
-/* .lichange:hover{
-    background-color: rgb(13, 104, 179);
-}
- */
-
 .iconsize {
     font-size: 1.5rem;
 }
-.iconsize:hover{
+
+.iconsize:hover {
     color: #a6acb4;
     font-size: 170%;
 }
-
-
-
 
 /* search box  for create post */
 .search {
@@ -77,8 +56,6 @@ body{
     height: 60px;
     text-indent: 25px;
     border: 2px solid #d6d4d4;
-
-
 }
 
 .formcontrol {
@@ -101,19 +78,13 @@ body{
 
     box-shadow: none;
     border: 2px solid blue;
-
-
 }
-
-
-
 
 .search .labelicon {
 
     position: absolute;
     top: 15px;
     left: 5px;
-
 }
 
 .search button {
@@ -127,23 +98,23 @@ body{
     width: 110px;
 
 }
-.search button:hover{
+
+.search button:hover {
     background-color: #a4b0be;
 }
+
 /* search box over */
-.displaceleft:hover{
+.displaceleft:hover {
     animation-name: displaceleft;
-    animation-duration: 0.5s;  
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
 }
 
-
-
 /* designing posts */
 
-.forborder{
+.forborder {
     border-radius: 20px;
-    background-color: #a6acb4;
+    background-color: #53cbfb;
 }
 
 
@@ -154,50 +125,66 @@ body{
     height: 35px;
     border-radius: 50%;
 }
-.username{
+
+.username {
     margin-left: 2%;
 }
-.userplace{
+
+.userplace {
     position: relative;
     top: 17px;
-    left:-80px
+    left: -80px
 }
-.userpost{
+
+.userpost {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.posticons{
+
+.posticons {
     margin: auto;
     width: 30%;
     padding-left: 12%;
 }
-.posticons:hover{
+
+.posticons:hover {
     color: #495057;
 }
+
 @keyframes displaceleft {
-    from{padding-left: 12%;}
-    to { padding-left: 15%;}
+    from {
+        padding-left: 12%;
+    }
+
+    to {
+        padding-left: 15%;
+    }
 }
 
-
-
 /* left side */
-.sugdp{
+.sugdp {
     border-radius: 30%;
     width: 35px;
     height: 35px;
     margin-right: 5%;
     margin-left: 5%;
 }
-.sugname{
-    color: #4e5a6e;
+
+.sugname {
+    color: #040404;
 }
-/* .displaceab:hover{
-    animation-name: dispabove;
-    animation-duration: 0.5s;
+
+.fontchange {
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    color: #040404;
 }
-@keyframes dispabove{
-    from{left: 0%; top: 0%;}
-    to{left: 10%; top: 5%;}
-} */
+.addfr:hover{
+    color: #57606f;
+    font-size: 110%;
+}
+.activities{
+    font-family: 'Titan One', cursive;
+    color: #040404;
+}
