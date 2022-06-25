@@ -1,10 +1,10 @@
-Welcome to Social-Hub. Social-hub is a social media web-app users can meet new people, make new friends, and interact with them. It enables them to limit the number of comments on their posts. Let's have a look at some salient features: 
+Welcome to Social-Hub. Social-hub is a social media web-app where users can meet new people, make new friends, and interact with them. Let's have a look at some salient features: 
 
 An amusing GIF is momentarily set forth on the screen when the home page gets refreshed. 
 
 Every time the user refreshes the page, he shall be able to enjoy randomly generated posts. 
 
-The website is responsive, i.e., changes its dimensions accordingly user's display. 
+The website is responsive, i.e., changes its dimensions according to the user's display. 
 
 Hovering over the icons changes their color, size, or opacity.  
 
@@ -37,7 +37,7 @@ Scope for further improvements:
 
   1. Send and view messages in the chat section 
 
-  2. Users can add comments and the number of comments can also be limited 
+  2. Users can add comments and the number of comments can also be limited using JS
 
   3. Posts can be saved as well as shared 
 
